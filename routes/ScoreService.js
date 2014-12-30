@@ -25,6 +25,7 @@ function submitToBoard(req, res){
         var name = req.body.name;
         var time = req.body.time;
         var date = req.body.date;
+        var score = req.body.score;
         var errorMessage = "required params : [";
         var hasError = false;
         if(!appName){
@@ -53,6 +54,10 @@ function submitToBoard(req, res){
         }
         if(!name){
             errorMessage += " name";
+            hasError = true;
+        }
+        if(!score){
+            errorMessage += " score";
             hasError = true;
         }
         if(hasError){

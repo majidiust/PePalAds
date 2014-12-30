@@ -50,23 +50,20 @@
       <file leaf-file-name="ScoreService.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/ScoreService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49317408" vertical-offset="0" max-vertical-offset="4726">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.55119455" vertical-offset="1258" max-vertical-offset="4811">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
               <folding>
-                <element signature="n#!!block;n#submitToBoard#0" expanded="true" />
-                <element signature="e#1789#4540#0" expanded="true" />
-                <element signature="e#2132#4506#0" expanded="true" />
-                <element signature="e#3305#4456#0" expanded="true" />
+                <element signature="e#3438#4589#0" expanded="true" />
                 <element signature="n#!!block;n#getLatestBoard#0" expanded="true" />
-                <element signature="e#4892#5614#0" expanded="true" />
-                <element signature="e#5218#5588#0" expanded="true" />
+                <element signature="e#5025#5747#0" expanded="true" />
+                <element signature="e#5351#5721#0" expanded="true" />
                 <element signature="n#!!block;n#getMyRank#0" expanded="true" />
-                <element signature="e#5953#6680#0" expanded="true" />
-                <element signature="e#6259#6654#0" expanded="true" />
+                <element signature="e#6086#6813#0" expanded="true" />
+                <element signature="e#6392#6787#0" expanded="true" />
                 <element signature="n#!!block;n#addApplication#0" expanded="true" />
-                <element signature="e#7391#8400#0" expanded="true" />
+                <element signature="e#7524#8533#0" expanded="true" />
                 <element signature="n#!!block;n#getApplicationId#0" expanded="true" />
-                <element signature="e#8626#8802#0" expanded="true" />
+                <element signature="e#8759#8935#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -407,23 +404,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/ScoreService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49317408" vertical-offset="0" max-vertical-offset="4726">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.55119455" vertical-offset="1258" max-vertical-offset="4811">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
           <folding>
-            <element signature="n#!!block;n#submitToBoard#0" expanded="true" />
-            <element signature="e#1789#4540#0" expanded="true" />
-            <element signature="e#2132#4506#0" expanded="true" />
-            <element signature="e#3305#4456#0" expanded="true" />
+            <element signature="e#3438#4589#0" expanded="true" />
             <element signature="n#!!block;n#getLatestBoard#0" expanded="true" />
-            <element signature="e#4892#5614#0" expanded="true" />
-            <element signature="e#5218#5588#0" expanded="true" />
+            <element signature="e#5025#5747#0" expanded="true" />
+            <element signature="e#5351#5721#0" expanded="true" />
             <element signature="n#!!block;n#getMyRank#0" expanded="true" />
-            <element signature="e#5953#6680#0" expanded="true" />
-            <element signature="e#6259#6654#0" expanded="true" />
+            <element signature="e#6086#6813#0" expanded="true" />
+            <element signature="e#6392#6787#0" expanded="true" />
             <element signature="n#!!block;n#addApplication#0" expanded="true" />
-            <element signature="e#7391#8400#0" expanded="true" />
+            <element signature="e#7524#8533#0" expanded="true" />
             <element signature="n#!!block;n#getApplicationId#0" expanded="true" />
-            <element signature="e#8626#8802#0" expanded="true" />
+            <element signature="e#8759#8935#0" expanded="true" />
           </folding>
         </state>
       </provider>
