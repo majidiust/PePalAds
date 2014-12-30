@@ -82,7 +82,7 @@ function getAds(req, res){
                 Hint : 120,
                 Logo : 'logo.png',
                 WallPaper : 'wallPaper.png',
-                Link : 'http://pepal.ir',
+                Link : 'http://www.pepal.ir',
                 Duration : '3600',
                 Video : 'video.mp4'
             });
