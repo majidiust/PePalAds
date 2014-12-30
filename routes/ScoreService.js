@@ -262,7 +262,7 @@ function getApplicationId(req, res){
     }
 }
 
-router.route('/getApplicationId').post(getApplicationId);
+router.route('/getApplicationId').get(getApplicationId);
 router.route('/addApplication').post(addApplication);
 router.route('/submitToBoard').post(submitToBoard);
 router.route('/getLatestBoard/:type/:appId/:count').get(getLatestBoard);
