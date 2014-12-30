@@ -7,6 +7,10 @@
   },
   "dependencies": {
     "express": "~4.0.0",
+"regexp-clone":"*",
+    "sliced":"*",
+"mpath":"*",
+"ms":"*",
     "static-favicon": "~1.0.0",
     "morgan": "~1.0.0",
     "cookie-parser": "~1.0.1",
@@ -15,14 +19,24 @@
     "jade": "*",
     "mongoskin": "*",
     "mongoose": "*",
+"mongodb":"*",
     "bcrypt-nodejs": "0.0.3",
     "moment": "2.6.0",
     "jwt-simple": "0.2.0",
     "safe_datejs": "*",
     "sleep": "*",
     "timer": "*",
-    "blueimp-file-upload-expressjs": "*",
     "mime": "*",
-    "http-status-codes":"*"
+    "http-status-codes":"*",
+    "mquery":"*",
+"hooks":"*",
+"mpromise":"*",
+"muri":"*",
+"regexp-clone":"*",
+    "sliced":"*",
+"mpath":"*",
+"ms":"*",
+    "blueimp-file-upload-expressjs": "*"
+
 }
 }
