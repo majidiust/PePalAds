@@ -13,6 +13,8 @@ var HttpStatus = require('http-status-codes');
 var ApplicationModel = require('../model/ScoreModel').ApplicationModel;
 var ScoreModel = require('../model/ScoreModel').ScoreModel;
 var UserModel = require('../model/ScoreModel').UserModel;
+var jwt = require('jwt-simple');
+
 
 function submitToBoard(req, res){
     try{
