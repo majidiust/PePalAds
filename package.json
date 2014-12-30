@@ -13,22 +13,16 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "jade": "*",
-    "mongodb": "*",
     "mongoskin": "*",
     "mongoose": "*",
     "bcrypt-nodejs": "0.0.3",
-    "passport": "^0.2.0",
-    "passport-http": "^0.2.2",
     "moment": "2.6.0",
     "jwt-simple": "0.2.0",
     "safe_datejs": "*",
-    "socket.io": "*",
-    "websocket": "*",
-    "webworker-threads": "*",
     "sleep": "*",
     "timer": "*",
     "blueimp-file-upload-expressjs": "*",
     "mime": "*",
-      "http-status-codes":"*"
+    "http-status-codes":"*"
 }
 }
