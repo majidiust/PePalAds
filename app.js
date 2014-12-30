@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/PePalAdsService');
 
 var Ads = require('./routes/AdsService');
-
+var Scores = require('./routes/ScoreService');
 var app = express();
 
 // view engine setup
@@ -36,6 +36,7 @@ app.use(function (req, res, next) {
 });
 
 app.use('/api/v1', Ads);
+app.use('/score/v1', Scores);
 
 
 /// catch 404 and forward to error handler

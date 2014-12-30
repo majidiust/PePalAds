@@ -35,7 +35,7 @@ var Ads = new Schema({
     Link : {type: String},
     Duration : {type: String},
     Video : {type: String},
-    Producer : [{type: mongoose.Schema.ObjectId, ref:'Producer'}]
+    Producer : {type: mongoose.Schema.ObjectId, ref:'Producer'}
 });
 
 var AdsModel = mongoose.model('Ads', Ads);
