@@ -191,10 +191,81 @@ function getMyRank(req, res){
     }
 }
 
+function addApplication(req, res){
+    try{
+        var appName = req.body.appName;
+        var appUrl = req.body.url;
+        var errorMessage = "required params : [";
+        var hasError = false;
+        if(!appName){
+            errorMessage += " appName";
+            hasError = true;
+        }
+        if(!appUrl){
+            errorMessage += " url";
+            hasError = true;
+        }
+        if(hasError){
+            errorMessage += " ]"
+            res.send(errorMessage, HttpStatus.BAD_REQUEST);
+        }
+        else{
+            ApplicationModel.findOne().exec(function(err, app){
+                if(err){
+                    res.send(err, HttpStatus.BAD_REQUEST);
+                }
+                else if(!app){
+
+                    var newApplication = new ApplicationModel({
+                        Name: appName,
+                        CreateDate: (new Date()).AsDateJs(),
+                        ExpiredDate: (new Date()).AsDateJs(),
+                        Url : appUrl
+                    });
+                    var expires = moment().add('days', 7).valueOf();
+                    var token = jwt.encode({
+                            iss: newApplication.id,
+                            exp: expires
+                        },
+                        "729183456258456"
+                    );
+                    newApplication.save(null);
+                    newApplication.Key = token;
+                    res.json(newApplication);
+                }
+                else{
+                    res.send("added before", HttpStatus.MULTIPLE_CHOICES);
+                }
+            });
+        }
+    }
+    catch(ex){
+        console.log(ex);
+        res.send(ex, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+
+function getApplicationId(req, res){
+    try{
+        ApplicationModel.find().exec(function(err, apps){
+            if(err){
+                res.send(err, HttpStatus.BAD_REQUEST);
+            }
+            else{
+                res.json({id:apps[0].id});
+            }
+        });
+    }
+    catch(ex){
+        console.log(ex);
+        res.send(ex, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+
+router.route('/getApplicationId').post(getApplicationId);
+router.route('/addApplication').post(addApplication);
 router.route('/submitToBoard').post(submitToBoard);
 router.route('/getLatestBoard/:type/:appId/:count').get(getLatestBoard);
 router.route('/getMyRank/:userId/:appId/:type').get(getMyRank);
 
-module.exports = router;/**
- * Created by Majid on 12/30/2014.
- */
+module.exports = router;
