@@ -43,14 +43,14 @@ var uploader = require('blueimp-file-upload-expressjs')(options);
 
 function getAds(req, res){
     try{
-        var appName = req.body.appName;
         var deviceId = req.body.deviceId;
         var time = req.body.time;
         var date = req.body.date;
+        var appId = req.body.appId;
         var errorMessage = "required params : [";
         var hasError = false;
-        if(!appName){
-            errorMessage += " appName";
+        if(!appId){
+            errorMessage += " appId";
             hasError = true;
         }
         if(!deviceId){

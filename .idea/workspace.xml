@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aa7ea16-17ec-4766-894d-599e6187f335" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/ScoreService.js" afterPath="$PROJECT_DIR$/routes/ScoreService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/AdsService.js" afterPath="$PROJECT_DIR$/routes/AdsService.js" />
     </list>
     <ignored path="PePalAds.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,12 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScoreService.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ScoreService.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/ScoreService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55119455" vertical-offset="1258" max-vertical-offset="4811">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4225" max-vertical-offset="4811">
+              <caret line="275" column="63" selection-start-line="275" selection-start-column="63" selection-end-line="275" selection-end-column="63" />
               <folding>
+                <element signature="n#!!block;n#submitToBoard#0" expanded="true" />
+                <element signature="e#1922#4673#0" expanded="true" />
+                <element signature="e#2265#4639#0" expanded="true" />
                 <element signature="e#3438#4589#0" expanded="true" />
                 <element signature="n#!!block;n#getLatestBoard#0" expanded="true" />
                 <element signature="e#5025#5747#0" expanded="true" />
@@ -92,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdsService.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AdsService.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/AdsService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1233" max-vertical-offset="1819">
-              <caret line="80" column="56" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.9419795" vertical-offset="1029" max-vertical-offset="1819">
+              <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -127,13 +130,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/AdsService.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/model/AdsModel.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/model/ScoreModel.js" />
         <option value="$PROJECT_DIR$/routes/ScoreService.js" />
+        <option value="$PROJECT_DIR$/routes/AdsService.js" />
       </list>
     </option>
   </component>
@@ -336,7 +339,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/ScoreService.js</url>
+          <line>267</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -382,16 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/AdsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1233" max-vertical-offset="1819">
-          <caret line="80" column="56" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/ScoreModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="680">
@@ -404,9 +405,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/ScoreService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55119455" vertical-offset="1258" max-vertical-offset="4811">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4225" max-vertical-offset="4811">
+          <caret line="275" column="63" selection-start-line="275" selection-start-column="63" selection-end-line="275" selection-end-column="63" />
           <folding>
+            <element signature="n#!!block;n#submitToBoard#0" expanded="true" />
+            <element signature="e#1922#4673#0" expanded="true" />
+            <element signature="e#2265#4639#0" expanded="true" />
             <element signature="e#3438#4589#0" expanded="true" />
             <element signature="n#!!block;n#getLatestBoard#0" expanded="true" />
             <element signature="e#5025#5747#0" expanded="true" />
@@ -418,6 +422,16 @@
             <element signature="e#7524#8533#0" expanded="true" />
             <element signature="n#!!block;n#getApplicationId#0" expanded="true" />
             <element signature="e#8759#8935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/AdsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9419795" vertical-offset="1029" max-vertical-offset="1819">
+          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
